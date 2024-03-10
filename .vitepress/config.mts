@@ -20,7 +20,10 @@ export default defineConfig({
       alt: "GymNotes logo",
     },
 
-    nav: [{ text: "Go to GymNotes", link: GYMNOTES_APP_URL, target: "_self" }],
+    nav: [
+      { text: "Docs", link: "what-is-gymnotes" },
+      { text: "Go to GymNotes", link: GYMNOTES_APP_URL, target: "_self" },
+    ],
 
     sidebar: [
       { text: "Go to GymNotes", link: GYMNOTES_APP_URL },
