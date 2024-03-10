@@ -7,7 +7,7 @@ hero:
   text: "Fitness Tracking Made Easy"
   tagline: An offline-first, free, and easy-to-use fitness tracking app, available right in your browser.
   image: 
-    src: "gymNotes-mockup-iphone-14-pro.png"
+    src: "gymNotes-mockup-iphone-14-pro.webp"
     alt: "An iPhone with a screenshot of a GymNotes workout"
   actions:
     - theme: brand

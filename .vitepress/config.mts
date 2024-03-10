@@ -27,7 +27,10 @@ export default defineConfig({
       {
         text: "Introduction",
         collapsed: false,
-        items: [{ text: "What is GymNotes?", link: "what-is-gymnotes" }],
+        items: [
+          { text: "What is GymNotes?", link: "/what-is-gymnotes" },
+          { text: "Getting Started", link: "/getting-started" },
+        ],
       },
     ],
 
