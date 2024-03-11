@@ -13,6 +13,9 @@ export default defineConfig({
   lastUpdated: true,
 
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     logo: {
       light: "/horizontal-light-GymNotes-logo.png",
