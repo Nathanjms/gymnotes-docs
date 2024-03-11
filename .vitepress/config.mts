@@ -40,6 +40,31 @@ export default defineConfig({
         collapsed: false,
         items: [{ text: "Migrating from Old Website", link: "/support/migrating-from-old-website" }],
       },
+      {
+        text: "Pages",
+        collapsed: false,
+        items: [
+          { text: "Dashboard", link: "/pages/dashboard" },
+          { text: "Workout History", link: "/pages/workout-history" },
+          { text: "Settings", link: "/pages/settings" },
+          { text: "Add To Workout", link: "/pages/add-to-workout" },
+          {
+            text: "Exercises",
+            collapsed: false,
+            items: [
+              { text: "Add Exercise to Workout", link: "/pages/exercises/add-to-workout" },
+              { text: "Add New Exercise", link: "/pages/exercises/create" },
+              { text: "Edit Exercise", link: "/pages/exercises/edit" },
+            ],
+          },
+          {
+            text: "Stats",
+            collapsed: false,
+            items: [
+              { text: "Stats Dashboard", link: "/pages/stats/dashboard" },
+              { text: "Stats Details", link: "/pages/stats/details" },
+            ],
+          },
         ],
       },
     ],
