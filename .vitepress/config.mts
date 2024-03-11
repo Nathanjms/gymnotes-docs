@@ -15,8 +15,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: {
-      light: "horizontal-light-GymNotes-logo.png",
-      dark: "horizontal-dark-GymNotes-logo.png",
+      light: "/horizontal-light-GymNotes-logo.png",
+      dark: "/horizontal-dark-GymNotes-logo.png",
       alt: "GymNotes logo",
     },
 
