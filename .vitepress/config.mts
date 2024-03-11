@@ -21,8 +21,8 @@ export default defineConfig({
     },
 
     nav: [
-      { text: "Docs", link: "what-is-gymnotes" },
-      { text: "Go to GymNotes", link: GYMNOTES_APP_URL, target: "_self" },
+      { text: "Docs", link: "/introduction/what-is-gymnotes" },
+      { text: "Go to GymNotes", link: GYMNOTES_APP_URL },
     ],
 
     sidebar: [
@@ -31,8 +31,15 @@ export default defineConfig({
         text: "Introduction",
         collapsed: false,
         items: [
-          { text: "What is GymNotes?", link: "/what-is-gymnotes" },
-          { text: "Getting Started", link: "/getting-started" },
+          { text: "What is GymNotes?", link: "/introduction/what-is-gymnotes" },
+          { text: "Getting Started", link: "/introduction/getting-started" },
+        ],
+      },
+      {
+        text: "Support",
+        collapsed: false,
+        items: [{ text: "Migrating from Old Website", link: "/support/migrating-from-old-website" }],
+      },
         ],
       },
     ],
