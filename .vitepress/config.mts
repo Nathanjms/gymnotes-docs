@@ -6,7 +6,17 @@ export default defineConfig({
   title: "GymNotes",
   lang: "en-GB",
   description: "An offline-first, free, and easy-to-use fitness tracking app, available right in your browser.",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    [
+      "script",
+      {
+        async: "",
+        src: "https://static.cloudflareinsights.com/beacon.min.js",
+        "data-cf-beacon": '{"token": "613a115732c44d259ff4a2cfb7dab43c"}',
+      },
+    ],
+  ],
   sitemap: {
     hostname: GYMNOTES_DOCS_URL,
   },
