@@ -31,3 +31,9 @@ features:
     icon: 💰
 ---
 
+
+<script setup>
+  import TheWorkoutBackupModal from './components/TheWorkoutBackupModal.vue';
+</script>
+
+<TheWorkoutBackupModal />
