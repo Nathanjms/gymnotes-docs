@@ -6,6 +6,8 @@ If you have any issues, feel free to email me at nathan@gymnotes.co.uk and I'll 
 
 ## Guide
 
+### From Old Website (gymnotes.uk)
+
 1. From the GymNotes dashboard, click the 'Settings' icon.
 2. In Settings, go to the 'Workout Data' section and click 'Backup'.
 3. Here, you can either download your workout data into a backup file, or back it up to the cloud (if you are logged in).
@@ -18,6 +20,15 @@ If you have any issues, feel free to email me at nathan@gymnotes.co.uk and I'll 
 9. Here, you can either upload your backup file, or restore it from the cloud (after logging in).
 10. Your workout data is restored and ready to use, congratulations!
 11. If you are using GymNotes as an app, you can now remove the old icon from your home screen. **Note: Do not do this before a backup is taken, or you will lose your data.**
+
+### From This Website
+
+1. On the homepage of this website, a box should appear notifying you that you have old workout data.
+   1. Alternatively, click the button at the bottom of the page, "Have old workout data on this site?".
+2. Here, you can either download your workout data into a backup file.
+3. Once this is done, you are ready to move to the new site.
+4. Follow from Step 4 above.
+
 
 ## FAQs
 
