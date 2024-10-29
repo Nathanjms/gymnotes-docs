@@ -3,7 +3,8 @@ import { GYMNOTES_APP_URL, GYMNOTES_DOCS_URL } from "../constants.mts";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GymNotes - Free Fitness Tracking Tool",
+  title: "GymNotes",
+  titleTemplate: "GymNotes - Free Fitness Tracking Tool",
   lang: "en-GB",
   description: "An offline-first, free, and easy-to-use fitness tracking app, available right in your browser.",
   head: [
