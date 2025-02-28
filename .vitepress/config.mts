@@ -81,12 +81,25 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Privacy Policy & Terms of Service",
+        collapsed: false,
+        items: [
+          { text: "Privacy Policy", link: "/privacy-policy" },
+          { text: "Terms of Service", link: "/terms-of-service" },
+        ],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/nathanjms/gymnotes-docs" }],
 
     editLink: {
       pattern: "https://github.com/nathanjms/gymnotes-docs/edit/main/:path",
+    },
+
+    footer: {
+      message:
+        '<a href="/privacy-policy" class="underline">Privacy Policy</a> | <a href="/terms-of-service" class="underline">Terms of Service</a>',
     },
   },
 });
