@@ -49,37 +49,38 @@ export default defineConfig({
           { text: "Getting Started", link: "/introduction/getting-started" },
         ],
       },
+      { text: "Your Year of GymNotes", link: "/year-of-gymnotes" },
+
       {
-        text: "Support",
-        collapsed: false,
-        items: [{ text: "Migrating from Old Website", link: "/support/migrating-from-old-website" }],
-      },
-      {
-        text: "Pages",
+        text: "Sections",
         collapsed: false,
         items: [
           { text: "Dashboard", link: "/pages/dashboard" },
           { text: "Workout History", link: "/pages/workout-history" },
-          { text: "Settings", link: "/pages/settings" },
-          { text: "Add To Workout", link: "/pages/add-to-workout" },
+          { text: "User Profile", link: "/pages/user-profile" },
+          { text: "Add Exercise To Workout", link: "/pages/add-to-workout" },
           {
             text: "Exercises",
             collapsed: false,
             items: [
-              { text: "Add Exercise to Workout", link: "/pages/exercises/add-to-workout" },
-              { text: "Add New Exercise", link: "/pages/exercises/create" },
-              { text: "Edit Exercise", link: "/pages/exercises/edit" },
+              { text: "Add/Edit an Exercise", link: "/pages/exercises/create-or-edit" },
+              { text: "Manage Muscle Groups", link: "/pages/exercises/manage-muscle-groups" },
             ],
           },
           {
             text: "Stats",
             collapsed: false,
             items: [
-              { text: "Stats Dashboard", link: "/pages/stats/dashboard" },
+              { text: "Stats Dashboard", link: "/pages/stats/index" },
               { text: "Stats Details", link: "/pages/stats/details" },
             ],
           },
         ],
+      },
+      {
+        text: "Support",
+        collapsed: false,
+        items: [{ text: "Migrating from Old Website", link: "/support/migrating-from-old-website" }],
       },
       {
         text: "Privacy Policy & Terms of Service",

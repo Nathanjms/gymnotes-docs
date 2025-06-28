@@ -88,8 +88,12 @@ function getUserBackupData() {
 <template>
   <div>
     <hr />
-    <CustomButton @click="showModal = true" class="p-2 mt-4 w-full bg-gray-700 text-gray-200" :defaultBackground="false">
-      Have old Workout Data on this site?
+    <CustomButton
+      @click="showModal = true"
+      class="p-2 mt-4 w-full bg-amber-600 text-gray-200"
+      :defaultBackground="false"
+    >
+      Old Workout Data on this site?
     </CustomButton>
     <Teleport to="body">
       <Vue3TailwindModal :showModal="showModal" @close="showModal = false" class="z-50">
