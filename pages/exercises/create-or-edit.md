@@ -4,7 +4,7 @@ Use this screen to create a brand new exercise, or edit an existing one to bette
 
 ---
 
-### ✍️ What to Fill In
+## ✍️ What to Fill In
 
 1. **Name**  
    Give your exercise a clear and recognizable name.
@@ -25,12 +25,12 @@ Use this screen to create a brand new exercise, or edit an existing one to bette
 
 ---
 
-### ➕ Creating a New Exercise
+## ➕ Creating a New Exercise
 
-You’ll find the **“Add New Exercise”** button at the bottom of the [Add to Workout](/exercises/add-to-workout) page.
+You’ll find the **“Add New Exercise”** button at the bottom of the [Add to Workout](/pages/add-to-workout) page.
 
 ---
 
-### ✏️ Editing an Existing Exercise
+## ✏️ Editing an Existing Exercise
 
 From the exercise list, tap the **pencil icon** next to any exercise to update its details.

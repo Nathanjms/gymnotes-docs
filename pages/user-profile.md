@@ -4,20 +4,20 @@ _This is where you manage your account, preferences, and backups — everything 
 
 ---
 
-### 🔐 Account Management
+## 🔐 Account Management
 
 An account is entirely optional for using GymNotes, and it enabled cool features such as Cloud backup. Here you can see the email you’re logged in with, log out, or delete your account entirely.
 
 ---
 
-### 💾 Your Workout Data
+## 💾 Your Workout Data
 
 Make sure your workouts are safe!
 You can **backup** or **restore** your workout database with a tap, or **download** all your logs as a CSV spreadsheet.
 
 ---
 
-### ⚙️ Preferences
+## ⚙️ Preferences
 
 Here you can customise how GymNotes works for you:
 
@@ -31,7 +31,7 @@ Here you can customise how GymNotes works for you:
 
 ---
 
-### 🛠 Troubleshoot
+## 🛠 Troubleshoot
 
 Something not right? This section can help:
 
@@ -42,7 +42,7 @@ Something not right? This section can help:
 
 ---
 
-### 📣 Info & Feedback
+## 📣 Info & Feedback
 
 At the bottom, you’ll find links to:
 

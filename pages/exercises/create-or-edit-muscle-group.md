@@ -4,7 +4,7 @@ Easily create and edit your muscle groups to keep your workouts organised.
 
 ---
 
-### 📋 Muscle Groups Table
+## 📋 Muscle Groups Table
 
 The table shows all existing muscle groups with three columns:
 
@@ -14,12 +14,12 @@ The table shows all existing muscle groups with three columns:
 
 ---
 
-### ➕ Add New Muscle Group
+## ➕ Add New Muscle Group
 
 Use the form at the bottom of the page to create a new muscle group.
 
 ---
 
-### ⚠️ Deleting Muscle Groups
+## ⚠️ Deleting Muscle Groups
 
 Deleting a muscle group won’t remove any workout logs, but it’s still best to avoid deleting groups unless necessary.

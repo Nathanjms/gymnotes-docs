@@ -4,7 +4,7 @@ Get a quick snapshot of your workout achievements — total workouts, sets, reps
 
 ---
 
-### 📅 Time Views
+## 📅 Time Views
 
 Switch between **Month**, **Year**, or **All Time** stats to track your progress over different periods.
 
@@ -12,19 +12,19 @@ Use the arrows at the top to change the month or year you’re viewing.
 
 ---
 
-### 🔄 Share Your Stats
+## 🔄 Share Your Stats
 
 Tap the **Share** button at the bottom to save or send your stats as an image.
 
 ---
 
-### 🔗 More Stats Details
+## 🔗 More Stats Details
 
-Want to dive deeper? Use the link to the [Stats Details](/stats/details) page for a comprehensive breakdown.
+Want to dive deeper? Use the link to the [Stats Details](/pages/stats/details) page for a comprehensive breakdown.
 
 ---
 
-### 📅 Year in GymNotes
+## 📅 Year in GymNotes
 
 Each December, you get a special summary of your year’s workouts — the **Year of GymNotes**.
 

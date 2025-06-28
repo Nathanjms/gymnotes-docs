@@ -4,13 +4,13 @@ Get a detailed breakdown of your workouts with flexible filters and clear visual
 
 ---
 
-### 📅 Filters
+## 📅 Filters
 
 Choose to view stats by **Month**, **Year**, or **All Time** — just like the Stats Dashboard.
 
 ---
 
-### 📊 Charts
+## 📊 Charts
 
 Use the toggle buttons to switch between:
 
@@ -21,6 +21,6 @@ Each selection updates the pie chart to show your distribution and progress.
 
 ---
 
-### 📋 Stats List
+## 📋 Stats List
 
 Below the charts, find a full list of all your exercises or muscle groups with their individual stats, helping you track performance at a glance.

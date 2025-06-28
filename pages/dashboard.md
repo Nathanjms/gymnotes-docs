@@ -18,10 +18,10 @@ The selected day appears at the top. You can:
 You’ve got two ways to start:
 
 1. **Begin Workout**
-   Start fresh by choosing this option — you’ll be taken to the [Add Exercise to Workout](/exercises/add-to-workout) page to build your workout.
+   Start fresh by choosing this option — you’ll be taken to the [Add Exercise to Workout](/pages/add-to-workout) page to build your workout.
 
 2. **Copy Previous Workout**
-   Want to repeat a past session? Tap this to go to your [Workout History](/history) and select the **copy button** on the date you want to duplicate.
+   Want to repeat a past session? Tap this to go to your [Workout History](/pages/workout-history) and select the **copy button** on the date you want to duplicate.
 
 ---
 
@@ -36,15 +36,15 @@ At the top of the Dashboard, you’ll find four useful buttons:
 
 2. **Stats**
 
-   - Tap to open your [Stats](/stats/index) and see progress over time
+   - Tap to open your [Stats](/pages/stats/index) and see progress over time
 
 3. **Workout History**
 
-   - Tap to jump straight to your [Workout History](/workout-history)
+   - Tap to jump straight to your [Workout History](/pages/workout-history)
 
 4. **User Profile**
 
-   - Go to the [User Profile](/user-profile) to manage account settings and preferences
+   - Go to the [User Profile](/pages/user-profile) to manage account settings and preferences
 
 ---
 

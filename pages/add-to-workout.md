@@ -4,7 +4,7 @@ _Use this screen to quickly find and add exercises to your current workout._
 
 ---
 
-### 🔍 Find an Exercise
+## 🔍 Find an Exercise
 
 You can browse or filter the exercise list in two easy ways:
 
@@ -13,7 +13,7 @@ You can browse or filter the exercise list in two easy ways:
 
 ---
 
-### 👁 Hide or Show Exercises
+## 👁 Hide or Show Exercises
 
 Want to clean up the list?
 
@@ -23,7 +23,7 @@ Want to clean up the list?
 
 ---
 
-### ✏️ Edit an Exercise
+## ✏️ Edit an Exercise
 
 Need to fix a name or change a muscle group?
 
@@ -31,7 +31,7 @@ Need to fix a name or change a muscle group?
 
 ---
 
-### 🆕 Add a New Exercise
+## 🆕 Add a New Exercise
 
 Can’t find what you need?
 

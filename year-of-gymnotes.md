@@ -37,4 +37,4 @@ Your most performed exercises with set counts.
 ### 🔄 Share & Explore
 
 - **Share!** — Tap to save or share your yearly summary as an image
-- **View Details** — Dive deeper into your stats with the [Stats Details](/stats/details) page
+- **View Details** — Dive deeper into your stats with the [Stats Details](/pages/stats/details) page

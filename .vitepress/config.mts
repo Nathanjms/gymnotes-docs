@@ -49,7 +49,7 @@ export default defineConfig({
           { text: "Getting Started", link: "/introduction/getting-started" },
         ],
       },
-      { text: "Your Year of GymNotes", link: "/year-of-gymnotes" },
+      { text: "Your Year of GymNotes", link: "year-of-gymnotes" },
 
       {
         text: "Sections",
