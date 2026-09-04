@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { computed, ref, onMounted } from "vue";
-import { Vue3TailwindModal } from "vue3-tailwind-modal";
 import { db } from "../db";
 import CustomButton from "./CustomButton.vue";
 
@@ -8,15 +7,24 @@ defineProps<{
   btnText?: string;
 }>();
 
-const showModal = ref(false);
+const showBackupTools = ref(false);
 
 const backupLocal = ref({
   isLoading: false,
   errorMsg: "",
-  success: true,
+  success: false,
 });
 
-const canShare = computed(() => !!navigator.share);
+const canShare = computed(() => {
+  if (typeof navigator === "undefined" || !navigator.share || !navigator.canShare) return false;
+
+  try {
+    const testFile = new File(["test"], "test.txt", { type: "text/plain" });
+    return navigator.canShare({ files: [testFile] });
+  } catch {
+    return false;
+  }
+});
 
 onMounted(() => {
   handleInit();
@@ -25,12 +33,14 @@ onMounted(() => {
 async function handleInit() {
   const workoutLogsCount = await db["workout_sets"].count();
   if (workoutLogsCount) {
-    showModal.value = true; // Pop up the modal if workout logs exist
+    showBackupTools.value = true;
   }
 }
 
 async function backupToLocal(type: "share" | "download") {
   backupLocal.value.isLoading = true;
+  backupLocal.value.errorMsg = "";
+  backupLocal.value.success = false;
   try {
     const workoutLogs = await db["workout_sets"].toArray();
     const exercises = await db["exercises"].toArray();
@@ -64,9 +74,10 @@ async function backupToLocal(type: "share" | "download") {
       link.click();
       URL.revokeObjectURL(link.href);
     }
+    backupLocal.value.success = true;
   } catch (error) {
     backupLocal.value.success = false;
-    backupLocal.value.errorMsg = error.message ?? "Something went wrong";
+    backupLocal.value.errorMsg = error instanceof Error ? error.message : "Something went wrong";
   } finally {
     backupLocal.value.isLoading = false;
   }
@@ -89,32 +100,54 @@ function getUserBackupData() {
   <div>
     <hr />
     <CustomButton
-      @click="showModal = true"
-      class="p-2 mt-4 w-full bg-amber-600 text-gray-200"
+      :aria-controls="'old-workout-backup-tools'"
+      :aria-expanded="showBackupTools"
+      @click="showBackupTools = !showBackupTools"
+      class="p-2 mt-4 w-full bg-amber-600 text-white"
       :defaultBackground="false"
     >
-      Old Workout Data on this site?
+      {{ showBackupTools ? "Hide old workout backup" : "Old workout data on this site?" }}
     </CustomButton>
-    <Teleport to="body">
-      <Vue3TailwindModal :showModal="showModal" @close="showModal = false" class="z-50">
-        <template #header><h5 class="text-xl">Workouts Detected!</h5></template>
-        <div>
+    <Transition name="backup-disclosure">
+      <div
+        v-if="showBackupTools"
+        id="old-workout-backup-tools"
+        class="backup-disclosure overflow-hidden"
+      >
+        <section
+          class="backup-disclosure__content mt-3 rounded-xl border border-amber-300 bg-amber-50 p-4 text-amber-950 dark:border-amber-700 dark:bg-amber-950/40 dark:text-amber-50"
+          aria-labelledby="old-workout-backup-heading"
+        >
+          <h2
+            id="old-workout-backup-heading"
+            class="mb-2 mt-0 border-0 pt-0 text-xl font-semibold"
+          >
+            Workouts detected
+          </h2>
           <p class="mb-2">
-            We've detected that you have previously used this website to log your workouts. Please download your backup
-            below, and restore it on the new website,
-            <a href="https://app.gymnotes.co.uk" class="underline italic">https://app.gymnotes.co.uk</a>.
+            We've detected that you previously used this website to log workouts. Download a
+            backup below, then restore it on
+            <a href="https://app.gymnotes.co.uk" class="underline underline-offset-2"
+              >the new GymNotes app</a
+            >.
           </p>
           <p class="mb-2">
-            For a step-by-step guide,
-            <a href="/support/migrating-from-old-website.html" class="underline italic">click here</a>.
+            Follow the
+            <a
+              href="/support/migrating-from-old-website.html"
+              class="underline underline-offset-2"
+              >step-by-step migration guide</a
+            >
+            if you need help.
           </p>
-          <div>
-            <div class="flex gap-1">
+          <div class="mt-3">
+            <div class="flex flex-col gap-2 sm:flex-row">
               <CustomButton
                 v-if="canShare"
-                class="mb-2 flex gap-2 w-full items-center py-2 h-full"
+                class="flex h-full w-full items-center justify-center gap-2 py-2"
                 @click="() => backupToLocal('share')"
                 :disabled="backupLocal.isLoading"
+                :isLoading="backupLocal.isLoading"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -134,9 +167,10 @@ function getUserBackupData() {
                 <p>Share</p>
               </CustomButton>
               <CustomButton
-                class="flex gap-2 w-full items-center py-2 h-full"
+                class="flex h-full w-full items-center justify-center gap-2 py-2"
                 @click="() => backupToLocal('download')"
                 :disabled="backupLocal.isLoading"
+                :isLoading="backupLocal.isLoading"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -159,10 +193,49 @@ function getUserBackupData() {
             <small v-if="backupLocal.errorMsg" class="text-red-500 dark:text-red-400 block">
               {{ backupLocal.errorMsg }}
             </small>
+            <small
+              v-else-if="backupLocal.success"
+              class="mt-2 block text-green-700 dark:text-green-300"
+              role="status"
+            >
+              Backup ready. Keep it somewhere safe until you've restored it in the new app.
+            </small>
           </div>
-        </div>
-        <template #footer>&nbsp;</template>
-      </Vue3TailwindModal>
-    </Teleport>
+        </section>
+      </div>
+    </Transition>
   </div>
 </template>
+
+<style scoped>
+.backup-disclosure-enter-active,
+.backup-disclosure-leave-active {
+  display: grid;
+  transition:
+    grid-template-rows 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 180ms ease-out;
+}
+
+.backup-disclosure-enter-from,
+.backup-disclosure-leave-to {
+  grid-template-rows: 0fr;
+  opacity: 0;
+}
+
+.backup-disclosure-enter-to,
+.backup-disclosure-leave-from {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.backup-disclosure__content {
+  min-height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backup-disclosure-enter-active,
+  .backup-disclosure-leave-active {
+    transition: none;
+  }
+}
+</style>

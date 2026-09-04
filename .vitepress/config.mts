@@ -57,7 +57,7 @@ export default defineConfig({
         items: [
           { text: "Dashboard", link: "/pages/dashboard" },
           { text: "Workout History", link: "/pages/workout-history" },
-          { text: "User Profile", link: "/pages/user-profile" },
+          { text: "Settings", link: "/pages/user-profile" },
           { text: "Add Exercise To Workout", link: "/pages/add-to-workout" },
           {
             text: "Exercises",

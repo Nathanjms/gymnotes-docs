@@ -31,8 +31,8 @@ At the top of the Dashboard, you’ll find four useful buttons:
 
 1. **Backup Button**
 
-   - Back up your data manually, or see when your last cloud backup occurred
-   - If auto cloud backup is on, this icon updates with a ✅ when the backup is successful
+   - Back up your data manually, or see when your last Google Drive backup occurred
+   - If automatic Google Drive backup is on, this icon updates with a ✅ after a successful backup
 
 2. **Stats**
 
@@ -42,9 +42,9 @@ At the top of the Dashboard, you’ll find four useful buttons:
 
    - Tap to jump straight to your [Workout History](/pages/workout-history)
 
-4. **User Profile**
+4. **Settings**
 
-   - Go to the [User Profile](/pages/user-profile) to manage account settings and preferences
+   - Go to [Settings](/pages/user-profile) to manage backups and preferences
 
 ---
 

@@ -5,13 +5,16 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "vitepress": "^1.6.3"
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "vitepress": "^1.6.4"
   },
   "dependencies": {
-    "dexie": "^4.0.11",
-    "vue3-tailwind-modal": "^1.0.3"
+    "dexie": "^4.4.5",
+    "vue": "^3.5.42"
+  },
+  "overrides": {
+    "vite": "6.4.3"
   }
 }

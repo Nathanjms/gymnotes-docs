@@ -10,15 +10,15 @@ If you have any issues, feel free to email me at nathan@gymnotes.co.uk and I'll 
 
 1. From the GymNotes dashboard, click the 'Settings' icon.
 2. In Settings, go to the 'Workout Data' section and click 'Backup'.
-3. Here, you can either download your workout data into a backup file, or back it up to the cloud (if you are logged in).
+3. Download your workout data as a backup file. If your latest data exists only in the legacy backup service, restore it on the old site first, then download a new backup file.
    1. Bonus tip: Consider doing a backup regularly to keep a convenient way to restore data if needed.
 4. Once this is done, you are ready to move to the new site.
 5. Go to the new home of GymNotes, https://app.gymnotes.co.uk/
 6. If you use GymNotes as an app (recommended), add this new website to your home screen. This differs for iOS and Android, see [this page for details](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing#installing_pwas).
 7. In the new GymNotes app (or website if step 6 was skipped), click the 'Settings' icon.
 8. In Settings, go to the 'Workout Data' section and click 'Restore'.
-9. Here, you can either upload your backup file, or restore it from the cloud (after logging in).
-10. Your workout data is restored and ready to use, congratulations!
+9. Upload the backup file you downloaded from the old site.
+10. Your workout data is restored and ready to use. You can now optionally connect Google Drive and create a new backup.
 11. If you are using GymNotes as an app, you can now remove the old icon from your home screen. **Note: Do not do this before a backup is taken, or you will lose your data.**
 
 ### From This Website

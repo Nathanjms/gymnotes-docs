@@ -24,7 +24,7 @@ features:
     details: All of your workout data is stored on your device, so GymNotes can be used offline.
     icon: 📱
   - title: Backup your workout data
-    details: Easily backup your data via local or cloud-based (beta) backup/restore functionality.
+    details: Download a backup file or back up directly to a private GymNotes area in your Google Drive.
     icon: ☁️
   - title: Free to use
     details: Created by a gym-goer who was frustrated that there were only paid apps on iOS, GymNotes is free to use, forever.

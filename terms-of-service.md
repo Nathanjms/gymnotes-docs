@@ -1,61 +1,65 @@
 # GymNotes Terms of Service
 
-Last Updated: 28th February 2025
+_Last updated: 4 September 2026_
 
 ## 1. Introduction
 
-Welcome to GymNotes, a free, offline-first fitness tracking app available in your web browser. By accessing or using GymNotes, including its optional cloud backup feature, you agree to be bound by these Terms of Service.
+GymNotes is a free, offline-first fitness tracking app available in your web browser. By accessing or using GymNotes, including its optional device and Google Drive backup features, you agree to these Terms of Service.
 
-## 2. Acceptance of Terms
+## 2. Acceptance of terms
 
-By using GymNotes, you confirm that you have read, understood, and agree to these Terms of Service. If you do not agree, please do not use the service.
+By using GymNotes, you confirm that you have read, understood and agree to these terms. If you do not agree, please do not use the service.
 
-## 3. Description of Service
+## 3. Description of the service
 
-GymNotes is provided free of charge for personal use only. By default, all workout data is stored locally on your device. In addition, you have the option to create an account to enable cloud backups via Google or email/password. When using cloud backup, your data is stored solely for the purpose of enabling data restoration and is not shared with any third parties.
+GymNotes is provided free of charge for personal use. Workout data is stored locally on your device by default, and no GymNotes account is required. You can optionally download a backup file or connect Google Drive for direct backup and restore.
 
-## 4. User Responsibilities
+When you use Google Drive backup, eligible GymNotes data is transferred directly between your browser and a private GymNotes area in your Google Drive. It does not pass through or remain on a GymNotes-owned server. See the [Privacy Policy](/privacy-policy) for details.
 
-- Data Backup: You are solely responsible for backing up your workout data. While GymNotes offers local and cloud backup features, we do not guarantee data recovery in the event of device failure, accidental deletion, or other issues.
-- Content Upload: When using the cloud backup feature, you agree that any data you upload will be limited to your own workout logs and related information. You must not upload or transmit any content that is illegal, harmful, offensive, or violates the rights of others. We reserve the right to suspend or terminate your account if you upload inappropriate or harmful content.
-- Lawful Use: You agree to use GymNotes only for lawful purposes and in a manner that does not interfere with or disrupt the service.
+## 4. Your responsibilities
 
-## 5. License and Use
+- **Protect your data:** You are responsible for maintaining suitable backups. GymNotes cannot guarantee recovery after device failure, browser-data deletion, accidental deletion, corruption or loss of access to Google Drive.
+- **Protect your accounts and files:** Keep your device, Google account and downloaded backup files secure.
+- **Use the service lawfully:** Use GymNotes only for lawful purposes and in a way that does not interfere with or disrupt the app or its supporting services.
 
-We grant you a non-exclusive, non-transferable license to use GymNotes for personal, non-commercial purposes. This license covers both the offline app and the cloud backup service. You must not modify, reproduce, or distribute any part of the service without our express permission.
+## 5. Licence and use
 
-## 6. Prohibited Conduct
+We grant you a non-exclusive, non-transferable licence to use GymNotes for personal, non-commercial purposes. You must not modify, reproduce or distribute any part of the service except where applicable law or an open-source licence permits it.
 
-You agree not to:
+## 6. Prohibited conduct
 
-- Attempt to gain unauthorized access to GymNotes, its systems, or the cloud backup service.
-- Use GymNotes to transmit any harmful code, viruses, or engage in any activity that may damage or disrupt the service.
-- Upload, store, or share any content via the cloud backup that is obscene, defamatory, illegal, or infringes on the rights of any third party.
-- Use the cloud backup service to distribute or facilitate the distribution of such prohibited content.
+You must not:
 
-## 7. Cloud Backup Feature (Beta)
+- attempt to gain unauthorised access to GymNotes or its supporting systems;
+- introduce harmful code or deliberately disrupt the service; or
+- use GymNotes or its backup and restore features for illegal activity or to infringe another person's rights.
 
-- Account Creation: To use the cloud backup feature, you must create an account by providing your email address (or by signing in with Google).
-- Data Storage: Your workout data will be stored in the cloud solely for backup and restoration purposes. This data is protected in accordance with our Privacy Policy.
-- Beta Status & Local Backups: Please note that the cloud backup feature is currently in beta. We strongly advise that you also perform local backups of your workout data. In no event shall GymNotes or its creators be liable for any loss, corruption, or other issues arising from the use of the beta cloud backup feature.
-- Account Deletion: You may delete your account at any time via the "Settings" page. Deleting your account will permanently remove all associated workout data from the cloud. This action cannot be undone.
+## 7. Google Drive backups
+
+- **Optional connection:** Google Drive backup is optional and does not create a GymNotes account.
+- **Permission:** GymNotes requests permission only to manage files it creates in Google Drive's private application-data folder. It cannot access your normal Drive files.
+- **Third-party service:** Google Drive is operated by Google. Your use of it is also governed by Google's applicable terms and privacy policy.
+- **Availability:** GymNotes cannot guarantee Google Drive's availability or the continued availability, integrity or successful restoration of any backup. Keep an occasional downloaded backup as an independent copy.
+- **Access and deletion:** You can revoke GymNotes' access or delete its hidden application data through your Google Account and Google Drive settings. GymNotes cannot recover deleted Google Drive backups.
 
 ## 8. Disclaimers
 
-GymNotes is provided "as is" without any warranties, either express or implied. We do not guarantee the accuracy, reliability, or completeness of any information provided by the service. GymNotes does not provide medical or fitness advice, and you should consult a professional for personalized guidance. Use GymNotes and its cloud backup feature at your own risk.
+GymNotes is provided "as is" without warranties, either express or implied. We do not guarantee that the app or its backup features will always be available, error-free or suitable for a particular purpose.
 
-## 9. Limitation of Liability
+GymNotes does not provide medical or fitness advice. Consult an appropriately qualified professional for personalised guidance.
 
-To the fullest extent permitted by law, GymNotes and its creators shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the service, including the cloud backup feature—even if data loss occurs due to issues related to the beta status.
+## 9. Limitation of liability
 
-## 10. Modifications to Terms
+To the fullest extent permitted by law, GymNotes and its developer will not be liable for indirect, incidental or consequential loss arising from your use of the service, including loss or corruption of local, downloaded or Google Drive backup data. Nothing in these terms excludes liability that cannot legally be excluded.
 
-We reserve the right to update these Terms at any time. Any changes will be posted on this page, and your continued use of GymNotes after such changes have been made constitutes your acceptance of the new terms.
+## 10. Changes to these terms
 
-## 11. Governing Law
+These terms may be updated when GymNotes or its data-handling practices change. The latest version and its effective date will be published on this page. Continuing to use GymNotes after an update means you accept the revised terms.
 
-These Terms are governed by the laws of the United Kingdom. Any disputes arising from these Terms will be subject to the exclusive jurisdiction of the courts in the United Kingdom.
+## 11. Governing law
 
-## 12. Contact Information
+These terms are governed by the laws of the United Kingdom. Any disputes will be subject to the jurisdiction of the courts of the United Kingdom, except where applicable consumer law requires otherwise.
 
-If you have any questions about these Terms, please contact us at nathan@nathanjms.co.uk
+## 12. Contact
+
+For questions about these terms, email [nathan@nathanjms.co.uk](mailto:nathan@nathanjms.co.uk).
