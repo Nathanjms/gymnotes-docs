@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "GymNotes"
-  text: "Modern Fitness Tracking For Everyone"
-  tagline: An offline-first, free, and easy-to-use fitness tracking app, available right in your browser.
+  text: "Fitness tracking in your browser"
+  tagline: GymNotes is free, works offline and stores your workout data on your device.
   image: 
     src: "gymNotes-mockup-iphone-14-pro.webp"
     alt: "An iPhone with a screenshot of a GymNotes workout"
@@ -17,17 +17,18 @@ hero:
       link: https://app.gymnotes.co.uk
 
 features:
-  - title: Web Browser based
-    details: Being built in your web browser means it can be used on any smartphone.
+  - title: Works in your browser
+    details: Use GymNotes on any smartphone with a supported web browser.
     icon: 💪
-  - title: Offline Focused
-    details: All of your workout data is stored on your device, so GymNotes can be used offline.
+  - title: Works offline
+    details: Your workout data is stored on your device, so you can use GymNotes offline.
     icon: 📱
-  - title: Backup your workout data
-    details: Easily backup your data via local or cloud-based (beta) backup/restore functionality.
+  - title: Back up your workout data
+    details: Download a backup file or back up directly to a private GymNotes area in your Google Drive. See the Backups & recovery guide for setup and restore instructions.
+    link: /pages/backups
     icon: ☁️
   - title: Free to use
-    details: Created by a gym-goer who was frustrated that there were only paid apps on iOS, GymNotes is free to use, forever.
+    details: GymNotes was created by a gym-goer looking for a free iOS workout tracker. It remains free to use.
     icon: 💰
 ---
 

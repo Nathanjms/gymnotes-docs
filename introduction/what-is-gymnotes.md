@@ -1,18 +1,15 @@
 # What is GymNotes?
 
-GymNotes is an offline-first, free and easy-to-use fitness tracking app, available right in your browser.
+GymNotes is a free fitness tracker that works in your browser and can be used offline.
 
-Inspired by [FitNotes](http://www.fitnotesapp.com/) on Android, GymNotes aims to bring similar functionality to any device, by building the app directly in your web browser.
+Inspired by [FitNotes](http://www.fitnotesapp.com/) for Android, GymNotes brings similar features to any device with a supported web browser.
 
-All of your workout data is stored on your device - none is sent anywhere else!
+Your workout data is stored on your device by default. GymNotes only sends data elsewhere if you choose to use an optional feature such as Google Drive backup.
 
 ## Features
 
-Some of the features include:
-
-- Track your workouts easily
-- See your personal bests and workout history
-- Lots of graphs/stats
-- Export ALL of your exercise data to a spreadsheet at any time
-- Dark/Light Mode toggle!
-- ...and more!
+- Record workouts.
+- Review personal bests and workout history.
+- View charts and statistics.
+- Export your exercise data to a spreadsheet at any time.
+- Switch between light and dark mode.

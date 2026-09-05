@@ -1,35 +1,35 @@
-# Workout History
+# Workout history
 
-*View and navigate all your past workouts.*
+Use Workout History to find and open previous workouts.
 
-## 📅 View Modes
+## View modes
 
-* **List View**: Shows detailed workouts for selected date.
-* **Calendar View** (default): View workout activity by day, see which muscle groups at a glance by the coloured dots.
-
----
-
-## 🗓 Calendar Navigation
-
-* Tap arrows (`←` / `→`) to move between months.
-* Coloured dots represent workouts by muscle group on that day.
-* Tap a date to load its workouts below.
+- **List View** shows detailed workouts for the selected date.
+- **Calendar View**, the default, shows workout activity by day. Coloured dots identify the muscle groups trained.
 
 ---
 
-## 🔍 Workout Navigation
+## Calendar navigation
 
-* Use the arrows below the calendar to instantly jump between workouts.
-* Tap `Go to date` to jump to a specific date and return to the dashboard, with this date selected.
-
----
-
-## 📋 Workout Entries
-
-Each entry includes the standard GymNotes workout information, including exercise name, muscle group dot, and then dynamically sets, reps, weight, time, distance, and notes.
+- Tap the arrows (`←` and `→`) to move between months.
+- Coloured dots show which muscle groups you trained on each day.
+- Tap a date to load its workouts below.
 
 ---
 
-## 🏠 Home Button
+## Workout navigation
 
-Tap the home icon (bottom-right) to return to the main dashboard.
+- Use the arrows below the calendar to move between workouts.
+- Tap `Go to date` to return to the dashboard with that workout's date selected.
+
+---
+
+## Workout entries
+
+Each entry shows the exercise name and muscle group. Depending on the exercise, it may also show sets, reps, weight, time, distance and notes.
+
+---
+
+## Home button
+
+Tap the home icon in the bottom-right corner to return to the dashboard.

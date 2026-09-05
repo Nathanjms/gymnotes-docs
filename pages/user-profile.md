@@ -1,51 +1,44 @@
-# User Profile
+# Settings
 
-_This is where you manage your account, preferences, and backups — everything that keeps GymNotes running smoothly for you._
-
----
-
-## 🔐 Account Management
-
-An account is entirely optional for using GymNotes, and it enabled cool features such as Cloud backup. Here you can see the email you’re logged in with, log out, or delete your account entirely.
+Settings contains your backup, workout data and app preferences.
 
 ---
 
-## 💾 Your Workout Data
+## Google Drive backups
 
-Make sure your workouts are safe!
-You can **backup** or **restore** your workout database with a tap, or **download** all your logs as a CSV spreadsheet.
+No GymNotes account is required. You can optionally connect Google Drive to keep backups in a private GymNotes area that other apps and normal Drive files cannot access.
 
----
+From Settings, you can:
 
-## ⚙️ Preferences
+- Connect or reconnect Google Drive.
+- Keep between 1 and 10 backups.
+- Create a Google Drive backup manually.
+- Enable automatic backups after workout changes.
 
-Here you can customise how GymNotes works for you:
+Google periodically expires access. If a backup needs permission again, GymNotes displays a reconnect notice.
 
-- Switch between **Light** and **Dark** mode
-- Set your **default timer length**
-- Turn on/off handy features like:
+See [Backups & recovery](/pages/backups) for setup, automatic backup, retention, restore and troubleshooting instructions.
 
-  - Floating **arrow buttons** to quickly switch pages
-  - A shortcut to **jump to the next set**
-  - An icon that shows **how many workouts since your last backup**
+## Your workout data
 
----
+You can create or restore a downloaded backup file, restore a Google Drive backup, or download all workout logs as a CSV spreadsheet. Keeping an occasional downloaded backup gives you a separate copy that does not depend on Google Drive access.
 
-## 🛠 Troubleshoot
+## Preferences
 
-Something not right? This section can help:
+You can:
 
-- Try a **Full App Reboot** first — it solves most things
-- Use **Search for Missing Workouts** if you think any logs disappeared
-- Still using the old system? There’s a **Legacy Restore** option
-- Need a fresh start? You can **reset all data** (but think twice before doing this!)
+- Switch between light and dark mode.
+- Set the default timer length.
+- Show floating arrow buttons for moving between days.
+- Add a shortcut that saves a set and moves to the next one.
+- Show how many workouts you have completed since your last backup.
 
----
+## Troubleshooting
 
-## 📣 Info & Feedback
+If something is not working, try a full app reboot first. Settings also lets you search for missing workouts or reset all local data.
 
-At the bottom, you’ll find links to:
+Resetting local data cannot be undone. Create a downloaded or Google Drive backup first if you want to keep your workouts.
 
-- Leave feedback or check the **changelog**
-- Read the **documentation**, **privacy policy**, or **terms of service**
-- Learn more about GymNotes and who built it
+## App information
+
+At the bottom of Settings, you can open the changelog, documentation, privacy policy, terms of service and information about GymNotes.

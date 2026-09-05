@@ -1,36 +1,31 @@
-# 📝 Create or Edit an Exercise
+# Create or edit an exercise
 
-Use this screen to create a brand new exercise, or edit an existing one to better suit your training style.
+Use this screen to create an exercise or change an existing one.
 
 ---
 
-## ✍️ What to Fill In
+## Exercise details
 
 1. **Name**  
-   Give your exercise a clear and recognizable name.
+   Enter a clear, recognisable name.
 
 2. **Muscle Group**  
-   Choose which muscle group it targets — this helps with filtering and stats later.
+   Choose the muscle group it targets. GymNotes uses this for filters and stats.
 
 3. **Type**  
-   Select the workout format:
-   * Weight & Reps  
-   * Reps Only  
-   * Distance & Time  
-   * Time Only  
-   * etc.
+   Select the workout format, such as **Weight & Reps**, **Reps Only**, **Distance & Time** or **Time Only**.
 
 4. **Description** *(optional)*  
-   Add notes or cues, like proper form tips or machine settings.
+   Add form cues, machine settings or other useful notes.
 
 ---
 
-## ➕ Creating a New Exercise
+## Create an exercise
 
-You’ll find the **“Add New Exercise”** button at the bottom of the [Add to Workout](/pages/add-to-workout) page.
+The **"Add New Exercise"** button is at the bottom of the [Add to Workout](/pages/add-to-workout) page.
 
 ---
 
-## ✏️ Editing an Existing Exercise
+## Edit an exercise
 
-From the exercise list, tap the **pencil icon** next to any exercise to update its details.
+In the exercise list, tap the **pencil icon** next to an exercise to change its details.

@@ -1,31 +1,31 @@
-# 📊 Stats Dashboard
+# Stats dashboard
 
-Get a quick snapshot of your workout achievements — total workouts, sets, reps, weight lifted, volume, and more. See your favourite exercise and muscle group at a glance.
+The Stats dashboard shows your total workouts, sets, reps, weight lifted and volume. It also shows your favourite exercise and muscle group.
 
 ---
 
-## 📅 Time Views
+## Time periods
 
-Switch between **Month**, **Year**, or **All Time** stats to track your progress over different periods.
+Switch between **Month**, **Year** and **All Time** to view stats for different periods.
 
 Use the arrows at the top to change the month or year you’re viewing.
 
 ---
 
-## 🔄 Share Your Stats
+## Share your stats
 
 Tap the **Share** button at the bottom to save or send your stats as an image.
 
 ---
 
-## 🔗 More Stats Details
+## More detail
 
-Want to dive deeper? Use the link to the [Stats Details](/pages/stats/details) page for a comprehensive breakdown.
+Open [Stats Details](/pages/stats/details) for a full breakdown.
 
 ---
 
-## 📅 Year in GymNotes
+## Year in GymNotes
 
-Each December, you get a special summary of your year’s workouts — the **Year of GymNotes**.
+Each December, GymNotes creates a summary of your workouts from that year.
 
-You can also access this anytime from this page, for any previous year, via the [Year of GymNotes](/year-of-gymnotes) link.
+You can also open [Year in GymNotes](/year-of-gymnotes) at any time to view a previous year.

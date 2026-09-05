@@ -1,26 +1,26 @@
-# Stats Details
+# Stats details
 
-Get a detailed breakdown of your workouts with flexible filters and clear visuals.
-
----
-
-## 📅 Filters
-
-Choose to view stats by **Month**, **Year**, or **All Time** — just like the Stats Dashboard.
+This page gives you a more detailed breakdown of your workouts.
 
 ---
 
-## 📊 Charts
+## Filters
+
+As on the Stats dashboard, you can view stats by **Month**, **Year** or **All Time**.
+
+---
+
+## Charts
 
 Use the toggle buttons to switch between:
 
-* Muscle Groups or Exercises
-* Sets, Reps, Weight, or Volume
+- Muscle groups or exercises
+- Sets, reps, weight or volume
 
-Each selection updates the pie chart to show your distribution and progress.
+The pie chart updates to show your distribution and progress when you change either selection.
 
 ---
 
-## 📋 Stats List
+## Stats list
 
-Below the charts, find a full list of all your exercises or muscle groups with their individual stats, helping you track performance at a glance.
+Below the charts is a list of every exercise or muscle group and its individual stats.
