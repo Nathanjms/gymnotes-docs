@@ -1,49 +1,48 @@
-# Migrating from Old Website
+# Migrating from the old website
 
-GymNotes has moved from it's old home at _https://gymnotes.uk_ to _https://app.gymnotes.co.uk_. Because your workout data is stored per website, you need to move this data across from the old website to the new. It is important to do this as soon as possible, because the old websites may become unavailable in the future.
+GymNotes has moved from _https://gymnotes.uk_ to _https://app.gymnotes.co.uk_. Workout data is stored separately for each website, so you need to transfer it to the new address. Do this as soon as possible because the old websites may become unavailable.
 
-If you have any issues, feel free to email me at nathan@gymnotes.co.uk and I'll do my best to help.
+If you have trouble moving your data, email me at nathan@gymnotes.co.uk.
 
 ## Guide
 
-### From Old Website (gymnotes.uk)
+### From the old website (gymnotes.uk)
 
-1. From the GymNotes dashboard, click the 'Settings' icon.
-2. In Settings, go to the 'Workout Data' section and click 'Backup'.
+1. From the GymNotes dashboard, click the **Settings** icon.
+2. In Settings, go to **Workout Data** and click **Backup**.
 3. Download your workout data as a backup file. If your latest data exists only in the legacy backup service, restore it on the old site first, then download a new backup file.
-   1. Bonus tip: Consider doing a backup regularly to keep a convenient way to restore data if needed.
-4. Once this is done, you are ready to move to the new site.
+   1. Download backups regularly so you have another way to restore your data.
+4. You are now ready to move to the new site.
 5. Go to the new home of GymNotes, https://app.gymnotes.co.uk/
-6. If you use GymNotes as an app (recommended), add this new website to your home screen. This differs for iOS and Android, see [this page for details](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing#installing_pwas).
-7. In the new GymNotes app (or website if step 6 was skipped), click the 'Settings' icon.
-8. In Settings, go to the 'Workout Data' section and click 'Restore'.
+6. If you use GymNotes as an app, add the new website to your home screen. The steps differ for iOS and Android. See [MDN's installation guide](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Installing#installing_pwas).
+7. In the new GymNotes app, or on the website if you skipped step 6, click the **Settings** icon.
+8. In Settings, go to **Workout Data** and click **Restore**.
 9. Upload the backup file you downloaded from the old site.
-10. Your workout data is restored and ready to use. You can now optionally connect Google Drive and create a new backup.
-11. If you are using GymNotes as an app, you can now remove the old icon from your home screen. **Note: Do not do this before a backup is taken, or you will lose your data.**
+10. Once your workout data is restored, you can connect Google Drive and create a new backup if you want to.
+11. If you use GymNotes as an app, remove the old icon from your home screen only after creating the backup. Removing it earlier will delete your data.
 
-### From This Website
+### From this website
 
-1. On the homepage of this website, a box should appear notifying you that you have old workout data.
-   1. Alternatively, click the button at the bottom of the page, "Have old workout data on this site?".
-2. Here, you can either download your workout data into a backup file.
-3. Once this is done, you are ready to move to the new site.
-4. Follow from Step 4 above.
+1. A box on this website's homepage should tell you that old workout data was found.
+   1. If it does not appear, click **Have old workout data on this site?** at the bottom of the page.
+2. Download your workout data as a backup file.
+3. Continue from step 4 above.
 
 
-## FAQs
+## Questions
 
-### Why Have you Moved?
+### Why did GymNotes move?
 
-I develop and run GymNotes in my spare time. While I do what I can to keep costs down, the domain itself costs me to renew each year. Because of this, I've made the decision to reduce the number of domains for GymNotes down from 2 to 1.
+I develop and run GymNotes in my spare time. Each domain costs money to renew, so I decided to reduce the number of GymNotes domains from two to one.
 
-### Didn't I just do this?
+### Didn't I already do this?
 
-You may have been told to migrate from *gymnotes.uk* to *gymnotes.co.uk* previously, before it was decided that GymNotes will live on *app.gymnotes.co.uk*. Apologies for the confusion, but please consider moving to *app.gymnotes.co.uk* instead, as *gymnotes.co.uk* will likely become the documentation for the GymNotes app, and so not be used for the app.
+You may previously have moved from *gymnotes.uk* to *gymnotes.co.uk*. GymNotes now lives at *app.gymnotes.co.uk*, while *gymnotes.co.uk* is intended for the app's documentation. Sorry for asking you to move again.
 
-### Will this be Moved again?
+### Will GymNotes move again?
 
-I have zero intentions to move away from the new domain, and so the answer to this is no. If this will ever change, I will be sure to give as much notice as possible, but personally think we've found the permanent home for GymNotes!
+I do not intend to move GymNotes away from the new domain. If that changes, I will give as much notice as possible.
 
-### This is really inconvenient to me!
+### This is inconvenient
 
-That's not a question, but I'll apologise for the inconvenience anyway! Hopefully you understand that this helps GymNotes be set up for the long term. Feel free to get in touch with any suggestions/improvements and I'll take it all on board! The easiest way to to this is probably to fill out the form on GymNotes.
+Sorry for the inconvenience. You can send suggestions or ideas for improvements through the form in GymNotes.

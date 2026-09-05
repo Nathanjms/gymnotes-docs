@@ -1,7 +1,7 @@
-# Getting Started
+# Getting started
 
-The aim of GymNotes is to be very simple and easy to use, so to get started, load the web app and click "Begin Workout" to choose from one of over 80 pre-defined exercises!
+GymNotes is designed to be simple to use. Open the web app and click **Begin Workout**, then choose from more than 80 predefined exercises.
 
-If you want to use more advanced features, most are explained within the app, and you can use this documentation as a reference.
+The app explains most advanced features as you use them. This documentation provides more detail when you need it.
 
-<a href="https://app.gymnotes.co.uk" class="underline italic">Take me to the Web App!</a>
+<a href="https://app.gymnotes.co.uk" class="underline italic">Open GymNotes</a>

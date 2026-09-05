@@ -1,40 +1,40 @@
 # Year in GymNotes
 
-A vibrant visual summary of your yearly workout progress.
+This page is a visual summary of your workout activity for the year.
 
 ---
 
-### 📊 Workouts By Month
+### Workouts by month
 
-At the top, a bar chart shows your total workouts for each month, giving you an easy way to spot trends and consistency.
+The bar chart at the top shows how many workouts you completed each month, making trends and consistency easier to spot.
 
 ---
 
-### 📈 Yearly Totals
+### Yearly totals
 
 Quick stats include:
 
-- **Workouts:** Total number of sessions
-- **Sets:** Total sets completed
-- **Reps:** Total repetitions performed
-- **Total Weight:** Kilograms lifted
-- **Total Volume:** Weight × reps volume
+- Total number of workouts
+- Sets completed
+- Repetitions performed
+- Total weight lifted in kilograms
+- Total volume (weight × reps)
 
 ---
 
-### 💪 Top Muscle Groups
+### Top muscle groups
 
-See which muscle groups you focused on the most, with sets counted for each.
-
----
-
-### 🏋️‍♂️ Top Exercises
-
-Your most performed exercises with set counts.
+Muscle groups are ranked by the number of sets completed.
 
 ---
 
-### 🔄 Share & Explore
+### Top exercises
 
-- **Share!** — Tap to save or share your yearly summary as an image
-- **View Details** — Dive deeper into your stats with the [Stats Details](/pages/stats/details) page
+Exercises are also ranked by set count.
+
+---
+
+### Share and explore
+
+- Tap **Share** to save or share your yearly summary as an image.
+- Open [Stats Details](/pages/stats/details) for a more detailed breakdown.

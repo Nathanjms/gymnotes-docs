@@ -1,38 +1,32 @@
-# Add Exercise to Workout
+# Add exercise to workout
 
-_Use this screen to quickly find and add exercises to your current workout._
-
----
-
-## 🔍 Find an Exercise
-
-You can browse or filter the exercise list in two easy ways:
-
-- Tap a **muscle group** at the top to filter the list
-- Or start typing in the **search bar** to find a specific exercise
+Use this screen to find exercises and add them to your current workout.
 
 ---
 
-## 👁 Hide or Show Exercises
+## Find an exercise
 
-Want to clean up the list?
+You can browse the exercise list or filter it:
 
-- Tap the **eye icon** next to any exercise to hide it
-- Hidden exercises won’t show up — until you select the special **“Hidden”** muscle group
-- From there, you can view or unhide anything you’ve previously hidden
-
----
-
-## ✏️ Edit an Exercise
-
-Need to fix a name or change a muscle group?
-
-- Just tap the **pencil icon** next to any exercise to make edits
+- Tap a **muscle group** at the top to show exercises for that group.
+- Type in the **search bar** to find a specific exercise.
 
 ---
 
-## 🆕 Add a New Exercise
+## Hide or show exercises
 
-Can’t find what you need?
+- Tap the **eye icon** next to an exercise to hide it.
+- To see hidden exercises, select the **"Hidden"** muscle group.
+- Tap the eye icon again to return an exercise to the main list.
 
-- Tap the **“Add New Exercise”** button at the bottom to create your own
+---
+
+## Edit an exercise
+
+Tap the **pencil icon** next to an exercise to change its details.
+
+---
+
+## Add an exercise
+
+If the exercise you need is not listed, tap **"Add New Exercise"** at the bottom of the page.

@@ -1,4 +1,4 @@
-# Privacy Policy
+# Privacy policy
 
 _Last updated: 4 September 2026_
 
@@ -9,7 +9,7 @@ _Last updated: 4 September 2026_
 - The GymNotes app has no advertising or analytics. The separate documentation website uses limited, aggregate Cloudflare Web Analytics.
 - The old account-based backup service has ended. Any remaining legacy server data will be permanently deleted no later than **31 December 2026**.
 
-The rest of this policy explains these points in more detail.
+The sections below explain how each type of data is handled.
 
 ## Who is responsible for your data
 
@@ -34,7 +34,7 @@ You may download a backup file containing eligible GymNotes data directly to you
 
 ## Optional Google Drive backups
 
-Connecting Google Drive is optional. GymNotes can be used without a Google account.
+Google Drive is optional. You can use GymNotes without a Google account.
 
 If you connect Google Drive, GymNotes requests only the following OAuth permission:
 
@@ -47,7 +47,7 @@ This limited permission allows GymNotes to create, list, download and delete its
 - access your email address, name, profile picture or contacts; or
 - access Gmail, Google Photos, Google Calendar or other Google services.
 
-The application-data folder is separate from your normal Drive content and is not visible in the standard Google Drive interface. More information is available in [Google's application-data documentation](https://developers.google.com/workspace/drive/api/guides/appdata).
+The application-data folder is separate from your normal Drive content and is not visible in the standard Google Drive interface. See [Google's application-data documentation](https://developers.google.com/workspace/drive/api/guides/appdata) for more information.
 
 ### How Google user data is used
 
@@ -120,7 +120,7 @@ No method of electronic storage or transmission is completely secure. You should
 
 You control whether to connect Google Drive, create backups, restore data or revoke Google access. You can delete local GymNotes data using the application's reset controls or your browser's site-data controls. You can also ask for early deletion of legacy server data using the contact details above.
 
-Depending on where you live, you may have rights over personal data held by GymNotes, including rights to access, correct, delete, restrict or object to its processing, and receive a portable copy. You may also withdraw consent where processing relies on consent. These rights may be limited where GymNotes does not possess or control the data, such as information held only on your device or in your Google Drive.
+Depending on where you live, you may have rights over personal data held by GymNotes. These may include the rights to access, correct or delete it, restrict or object to its processing, and receive a portable copy. You may also withdraw consent where processing relies on consent. These rights may be limited where GymNotes does not possess or control the data, such as information held only on your device or in your Google Drive.
 
 To exercise a right, email [nathan@nathanjms.co.uk](mailto:nathan@nathanjms.co.uk). You may be asked for enough information to locate legacy records and verify your identity. UK users can also complain to the [Information Commissioner's Office](https://ico.org.uk/make-a-complaint/).
 

@@ -1,4 +1,4 @@
-# GymNotes Terms of Service
+# GymNotes terms of service
 
 _Last updated: 4 September 2026_
 
@@ -8,7 +8,7 @@ GymNotes is a free, offline-first fitness tracking app available in your web bro
 
 ## 2. Acceptance of terms
 
-By using GymNotes, you confirm that you have read, understood and agree to these terms. If you do not agree, please do not use the service.
+By using GymNotes, you confirm that you have read, understood and agree to these terms. If you do not agree, do not use the service.
 
 ## 3. Description of the service
 
@@ -18,9 +18,9 @@ When you use Google Drive backup, eligible GymNotes data is transferred directly
 
 ## 4. Your responsibilities
 
-- **Protect your data:** You are responsible for maintaining suitable backups. GymNotes cannot guarantee recovery after device failure, browser-data deletion, accidental deletion, corruption or loss of access to Google Drive.
-- **Protect your accounts and files:** Keep your device, Google account and downloaded backup files secure.
-- **Use the service lawfully:** Use GymNotes only for lawful purposes and in a way that does not interfere with or disrupt the app or its supporting services.
+- You are responsible for maintaining suitable backups. GymNotes cannot guarantee recovery after device failure, browser-data deletion, accidental deletion, corruption or loss of access to Google Drive.
+- Keep your device, Google account and downloaded backup files secure.
+- Use GymNotes only for lawful purposes. Do not interfere with or disrupt the app or its supporting services.
 
 ## 5. Licence and use
 
@@ -36,11 +36,11 @@ You must not:
 
 ## 7. Google Drive backups
 
-- **Optional connection:** Google Drive backup is optional and does not create a GymNotes account.
-- **Permission:** GymNotes requests permission only to manage files it creates in Google Drive's private application-data folder. It cannot access your normal Drive files.
-- **Third-party service:** Google Drive is operated by Google. Your use of it is also governed by Google's applicable terms and privacy policy.
-- **Availability:** GymNotes cannot guarantee Google Drive's availability or the continued availability, integrity or successful restoration of any backup. Keep an occasional downloaded backup as an independent copy.
-- **Access and deletion:** You can revoke GymNotes' access or delete its hidden application data through your Google Account and Google Drive settings. GymNotes cannot recover deleted Google Drive backups.
+- Google Drive backup is optional and does not create a GymNotes account.
+- GymNotes requests permission only to manage files it creates in Google Drive's private application-data folder. It cannot access your normal Drive files.
+- Google operates Google Drive. Your use of it is also governed by Google's applicable terms and privacy policy.
+- GymNotes cannot guarantee Google Drive's availability or the continued availability, integrity or successful restoration of any backup. Keep an occasional downloaded backup as an independent copy.
+- You can revoke GymNotes' access or delete its hidden application data through your Google Account and Google Drive settings. GymNotes cannot recover deleted Google Drive backups.
 
 ## 8. Disclaimers
 
