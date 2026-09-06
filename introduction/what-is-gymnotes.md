@@ -12,4 +12,4 @@ Your workout data is stored on your device by default. GymNotes only sends data 
 - Review personal bests and workout history.
 - View charts and statistics.
 - Export your exercise data to a spreadsheet at any time.
-- Switch between light and dark mode.
+- Choose from multiple themes.

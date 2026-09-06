@@ -27,7 +27,7 @@ You can create or restore a downloaded backup file, restore a Google Drive backu
 
 You can:
 
-- Switch between light and dark mode.
+- Choose from multiple themes: Light and Dark (GymNotes Classic), True Dark, Paper, Midnight or Forest.
 - Set the default timer length.
 - Show floating arrow buttons for moving between days.
 - Add a shortcut that saves a set and moves to the next one.
